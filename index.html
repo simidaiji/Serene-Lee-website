@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1c1a18">
 <title>Serena Lee Photography</title>
 <meta name="description" content="Serena Lee is a freelance photographer for weddings and portraits.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,12 +12,12 @@
 <style>
 /* Layout idea: one calm column. Hero, wide three-column grid, narrow about, quiet contact. Photos are the only colour. */
 :root {
-  --bg: #e8e4dc;          /* warm stone */
-  --bg-deep: #ddd8ce;     /* section tint */
-  --ink: #2b2723;         /* soft brown-black */
-  --ink-soft: #6a625a;    /* secondary text */
-  --accent: #5f6b4f;      /* muted moss, used sparingly */
-  --line: #c9c3b7;
+  --bg: #1c1a18;          /* warm charcoal */
+  --bg-deep: #242220;     /* section tint */
+  --ink: #ece7df;         /* warm off-white */
+  --ink-soft: #a59d93;    /* secondary text */
+  --accent: #a9b68f;      /* soft moss, used sparingly */
+  --line: #3a3632;
   --font-heading: "Instrument Serif", Georgia, "Times New Roman", serif;
   --font-body: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --gutter: clamp(20px, 6vw, 80px);
@@ -24,7 +25,7 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { color-scheme: light; scroll-behavior: smooth; }
+html { color-scheme: dark; scroll-behavior: smooth; }
 body {
   margin: 0;
   background: var(--bg);
@@ -94,25 +95,25 @@ a:focus-visible, .button:focus-visible { outline: 2px solid var(--accent); outli
   object-fit: cover;
   object-position: 50% 60%;
   border-radius: 3px;
-  background: var(--tone, #cfc8bc);
+  background: var(--tone, #38332d);
   display: grid;
   place-items: center;
   font-size: .8125rem;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: rgba(43, 39, 35, .45);
+  color: rgba(236, 231, 223, .38);
 }
 .grid figcaption {
   margin-top: 14px;
   font-size: .9375rem;
   color: var(--ink-soft);
 }
-.t1 { --tone: #d3c7b8; }
-.t2 { --tone: #c3c8bc; }
-.t3 { --tone: #d6bfb4; }
-.t4 { --tone: #cdc6c0; }
-.t5 { --tone: #c8cdc9; }
-.t6 { --tone: #d9ccb2; }
+.t1 { --tone: #3b342c; }
+.t2 { --tone: #333730; }
+.t3 { --tone: #3d3230; }
+.t4 { --tone: #37332f; }
+.t5 { --tone: #30363a; }
+.t6 { --tone: #3c382a; }
 
 /* About */
 .about { background: var(--bg-deep); padding: var(--space-section) 0; }
